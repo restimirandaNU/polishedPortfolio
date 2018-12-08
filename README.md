@@ -1,5 +1,5 @@
 # polishedPortfolio
-Employer Ready Bootstrap Employer:
+Employer Ready Bootstrap:
 This is a polished portfolio that includes work and educational experiences. Portfolio must be responsive friendly.
 
 Motivation: 
