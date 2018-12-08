@@ -16,4 +16,4 @@ Credits:
 Inspired by Ursus Polaris 3d Portfolio (https://themeforest.net/item/ursus-polaris-modern-3d-portfolio/3597664) 
 
 License:
-license Apache for the contact functionality (future release next) 
+license Apache for the contact functionality (future release) 
