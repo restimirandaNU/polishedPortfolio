@@ -7,8 +7,7 @@ To showcase a presentable work and school web projects during job search or inte
 
 Built with Bootstrap, Javascript, JQuery, and Apache
 
-Installation
-Available in github: 
+Installation is available in github: https://github.com/restimirandaNU/polishedPortfolio
 
 How to use?,
 Easy to use very straightforward navigation that includes, About, Resume, Portfolio, and Contact web pages.
