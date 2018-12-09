@@ -1,11 +1,15 @@
 # polishedPortfolio
-Polished Porfolio is an employer ready portfolio using bootstrap.
-This is a polished portfolio that includes work and educational experiences. Portfolio must be responsive friendly.
+
+Title:
+Polished Porfolio is an employer ready portfolio using bootstrap.Portfolio must be mobile riendly.
 
 Motivation: 
-To showcase a presentable NU coding bootcamp web projects to use for job search or interviews
+To showcase a presentable NU coding bootcamp web projects to use for job search or interviews.
 
-Built with Bootstrap, Javascript, JQuery, and Apache
+Built with HMTL/CSS, Bootstrap, Javascript and JQuery
+
+How to use:
+Easy to use very straightforward navigation that includes, About, Resume, Portfolio, and Contact web pages.
 
 Click link to view: https://restimirandanu.github.io/polishedPortfolio/#/about
 
@@ -24,11 +28,11 @@ Screen shots
 
 Future release: implement the contact email functionality, include work and fun projects under the portfolio web page, include a detailed work and educational information in the resume web page. 
 
-How to use:
-Easy to use very straightforward navigation that includes, About, Resume, Portfolio, and Contact web pages.
-
 Credits:
 Inspired by Ursus Polaris 3d Portfolio (https://themeforest.net/item/ursus-polaris-modern-3d-portfolio/3597664) 
 
 License:
 license Apache for the contact functionality (future release) 
+
+Author: 
+Resti Miranda - HMTL/CSS
