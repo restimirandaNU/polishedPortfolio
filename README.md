@@ -3,7 +3,7 @@ Polished Porfolio is an employer ready portfolio using bootstrap.
 This is a polished portfolio that includes work and educational experiences. Portfolio must be responsive friendly.
 
 Motivation: 
-To showcase a presentable work and school web projects during job search or interviews
+To showcase a presentable NU coding bootcamp web projects to use for job search or interviews
 
 Built with Bootstrap, Javascript, JQuery, and Apache
 
@@ -24,7 +24,7 @@ Screen shots
 
 Future release: implement the contact email functionality, include work and fun projects under the portfolio web page, include a detailed work and educational information in the resume web page. 
 
-How to use
+How to use:
 Easy to use very straightforward navigation that includes, About, Resume, Portfolio, and Contact web pages.
 
 Credits:
