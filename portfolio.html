@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta content="IE=9,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>My Portfolio - Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+<div>
+
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand">Resti Miranda</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav pull-right" id="menu">
+                        <li>
+                            <a href="index.html" data-slide="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="resume.html" data-slide="#resume">Resume</a>
+                        </li>
+                        <li class="active">
+                            <a href="portfolio.html" data-slide="#portfolio">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" data-slide="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="slideContainer">
+        <div class="step" id="portfolio">
+            <div class="scrollbar">
+                <div class="track">
+                    <div class="thumb">
+                        <div class="end"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container viewport" id="content">
+                <div class="overview">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <ul class="filterPortfolio tpl">
+                                <!-- All Works, Work, and Fun Projects are for future release-->
+                             <!--   <li class="active"><a href="#">All works</a></li> -->
+                                <li data-filter="filter-1"><a href="#">NU Coding BootcampSchool</a></li>
+                             <!--  <li data-filter="filter-2"><a href="#">Work</a></li> --> 
+                             <!--  <li data-filter="filter-3"><a href="#">Fun Projects</a></li> --> 
+                            </ul>
+
+                            <ul class="thumbnails galleryPortfolio clearfix" id="portfolios1">
+                                <li class="span3" data-id="1" data-filter="filter-1">
+                                    <a href="images/content/wordGuessImageSmall.png" class="thumbnail thickbox" data-rel="set" title="These apps will run in the browser, and feature dynamically updated HTML and CSS powered by JavaScript code. Essentially, the app randomly picks a letter, and the user has to guess which letter the app chose. When the player wins, increase the Wins counter and start the game over again (without refreshing the page).
+                                     When the player loses, increase the Losses counter and restart the game without a page refresh (just like when the user wins).">
+                                     <img src="images/content/wordGuessImageSmall.png" alt="Word Guess Project">  
+                                     <h3>Word Guess</h3>
+                                     <span class="cat">NU Coding Bootcamp</span>
+                                 </a>
+                             </li>
+
+                  
+
+                                   
+                             <!-- <li class="span3" data-id="2" data-filter="filter-2">
+                                    <a href="images/content/portfolio2.jpg" class="thumbnail thickbox" data-rel="set" title="Morbi dapibus pulvinar libero pellentesque pretium.">
+                                        <img src="images/content/portfolio2.jpg" alt="">
+
+                                        <h3>Anchor</h3>
+                                        <span class="cat">Print</span>
+                                    </a>
+                                </li>
+                                <li class="span3" data-id="3" data-filter="filter-3">
+                                    <a href="images/content/portfolio3.jpg" class="thumbnail thickbox" data-rel="set" title="Morbi dapibus pulvinar libero.">
+                                        <img src="images/content/portfolio3.jpg" alt="">
+
+                                        <h3>Balloon</h3>
+                                        <span class="cat">Illustration</span>
+                                    </a>
+                                </li> -->  
+                                <li class="span3" data-id="4" data-filter="filter-1">
+                                    <a href="images/content/triviaGameImage1.png" class="thumbnail thickbox" data-rel="set" title="The challenge was to create a timed trivia game. Only 15 seconds were alotted to each question. After all of the questions were finished, the final scoreboard of how well you did would appear.">
+                                        <img src="images/content/triviaGameImage1.png" alt="">
+
+                                        <h3>Trivia Game</h3>
+                                        <span class="cat">NU Coding Bootcamp</span>
+                                    </a>
+                                </li>
+                              <!--  <li class="span3" data-id="5" data-filter="filter-3">
+                                    <a href="images/content/portfolio5.jpg" class="thumbnail thickbox" data-rel="set" title="Morbi dapibus pulvinar libero pellentesque pretium. Quisque tur  quam commodo dictum.  Morbi dapibus. ">
+                                        <img src="images/content/portfolio5.jpg" alt="">
+
+                                        <h3>Polka dots</h3>
+                                        <span class="cat">Illustration</span>
+                                    </a>
+                                </li> -->  
+                                <li class="span3" data-id="6" data-filter="filter-1">
+                                    <a href="images/content/trainScheduleImage1.png" class="thumbnail thickbox" data-rel="set" title="Firebase Application to accept input from user to create a fictional train list and calculate the next train and minutes away.">
+                                        <img src="images/content/trainScheduleImage1.png" alt="Train Schedule">
+
+                                        <h3>Train Schedule</h3>
+                                        <span class="cat">NU Coding Bootcamp</span>
+                                    </a>
+                                </li>
+                                <li class="span3" data-id="7" data-filter="filter-1">
+                                    <a href="images/content/gifTasticImage1.png" class="thumbnail thickbox" data-rel="set" title="Implements the Giphy API. Displays animal gifs pertaining to button clicked. Gifs animate when mouse hovers over image. Allows user input to create new animal buttons.">
+                                    <img src="images/content/gifTasticImage1.png" alt="GifTastic">          
+                                    
+                                    <h3>GifTastic</h3>
+                                    <span class="cat">NU Coding Bootcamp</span>
+                                </a>
+                            </li>    
+
+                            
+                               <!-- <li class="span3" data-id="8" data-filter="filter-2">
+                                    <a href="http://www.youtube.com/embed/XSGBVzeBUbk?TB_iframe=true&height=400&width=620" class="thumbnail thickbox" data-rel="set" title="Morbi dapibus pulvinar libero pellentesque pretium. Quisque tur  quam commodo dictum. Morbi dapibus pulvinar libero pellentesque pretium.">
+                                        <img src="images/content/portfolio8.jpg" alt="">
+
+                                        <h3>Big Buck (movie)</h3>
+                                        <span class="cat">Print</span>
+                                    </a>
+                                </li> -->
+
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12 footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="step" id="contact"></div>
+        <div class="step" id="about"></div>
+        <div class="step" id="resume"></div>
+    </div>
+</div>
+<!-- Future Release for Fun Project -->
+<!--<div id="youtubeplayer-20" style="display:none;">
+    <!– start embed code copied directly from youTube.com –>
+    <object width="425" height="355">
+        <param name="movie" value="http://www.youtube.com/v/YsowqYWs7vU&hl=en"></param>
+        <param name="wmode" value="transparent"></param>
+        <embed src="http://www.youtube.com/v/YsowqYWs7vU&hl=en" type="application/x-shockwave-flash" width="425" height="355"></embed>
+    </object>
+    <!– end embed code copied directly from youTube.com –>
+</div> -->
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.js"></script>
+<script type="text/javascript" src="js/jquery.tinyscrollbar.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/ctMpress.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/ctPolaris.js"></script>
+
+</body>
+</html>
+
+	
+	
+
+

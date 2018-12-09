@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta content="IE=9,chrome=1" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>My Portfolio - Contact</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+<div>
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="brand">Resti Miranda</a>
+
+                <div class="nav-collapse">
+                    <ul class="nav pull-right" id="menu">
+                        <li>
+                            <a href="index.html" data-slide="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="resume.html" data-slide="#resume">Resume</a>
+                        </li>
+                        <li>
+                            <a href="portfolio.html" data-slide="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="active">
+                            <a href="contact.html" data-slide="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="slideContainer">
+        <div class="step" id="contact">
+            <div class="scrollbar">
+                <div class="track">
+                    <div class="thumb">
+                        <div class="end"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container viewport" id="content">
+                <div class="overview">
+                    <div class="row-fluid">
+                        <div class="span4">
+                            <h2 class="tpl">Drop me a line</h2>
+
+                            <form action="form/send.php" method="POST" class="contactForm">
+                                <fieldset>
+                                    <input class="span12" name="name" required type="text" placeholder="Your name">
+                                    <input class="span12" name="email" required type="text" placeholder="Your email">
+                                    <textarea class="span12" name="message" required id="textarea" rows="6" placeholder="Your message"></textarea>
+                                    <button type="submit" class="btn">Send message</button>
+                                </fieldset>
+                            </form>
+                        </div>
+                        <div class="span4">
+                            <h2 class="tpl">I'm here</h2>
+
+                            <div class="gmap">
+                                <iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190255.3385814539!2d-87.87204744503491!3d41.83390366695772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C+IL!5e0!3m2!1sen!2sus!4v1544206195730"></iframe>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <h2 class="tpl">Contact Info</h2>
+
+                            <p>
+                                <strong>Address:</strong> 1643 W Fletcher St. Chicago,<br>
+                                Illinois 60657<br>
+                                <strong>Email:</strong> <a href="mailto:restimiranda85@gmail.com" class="norm">restimiranda85@gmail.com</a><br>
+                                <strong>Phone:</strong> (312) 502-6808</p>
+
+                            <ul class="social">
+                                <li><a href="https://www.facebook.com/albert1.miranda" class="fb">Facebook</a></li>
+                                <li><a href="https://twitter.com/resti973" class="tw">Twitter</a></li>
+                                <li><a href="https://plus.google.com/u/0/107414831654053966718" class="go">Google Plus</a></li>
+                                <li class="last"><a href="https://www.linkedin.com/in/restimiranda/" class="in">LinkedIn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span12 footer">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="step" id="about"></div>
+        <div class="step" id="resume"></div>
+        <div class="step" id="portfolio"></div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery.mobile.js"></script>
+<script type="text/javascript" src="js/jquery.tinyscrollbar.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/ctMpress.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/ctPolaris.js"></script>
+<script src="js/contact-form.js"></script>
+
+</body>
+</html>
