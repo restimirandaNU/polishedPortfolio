@@ -15,8 +15,6 @@ Click link to view: https://restimirandanu.github.io/polishedPortfolio/#/about
 
 Screen shots
 
-![restiprofile](https://user-images.githubusercontent.com/43328718/51451447-efaced00-1cfa-11e9-9eea-5c56ebba4a77.jpg)
-
 
 ![porf1](https://user-images.githubusercontent.com/43328718/49694578-988bf800-fb52-11e8-89ac-2801695965e0.PNG)
 
